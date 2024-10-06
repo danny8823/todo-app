@@ -10,6 +10,9 @@ export default function Home() {
         <label>Password:</label>
         <input
           class = 'w-80'/>
+        <button 
+          class = 'bg-black text-white mt-5 w-80 p-2'  
+        >Login</button>
       </form>
     </div>
   );
