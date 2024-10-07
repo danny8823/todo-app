@@ -1,38 +1,39 @@
+'use client'
 
 export default function Register(){
     return (
-        <div class = 'bg-red-100 h-svh flex justify-center items-center'>
-            <form class = 'bg-blue-300 flex flex-col w-3/6 p-3 rounded-lg shadow-2xl'>
+        <div className = 'flex flex-col items-center justify-center w-full h-screen bg-slate-100'>
+            <form className = 'bg-blue-100 w-3/6 h-3/6 p-4 rounded-2xl shadow-xl'>
                 <h1 className = 'text-center text-4xl'>Register</h1>
                 <label
-                    className = 'mb-2 text-lg'>
+                    className = 'text-2xl'>
                     Username:
                 </label>
                 <input
-                    className = 'w-full mb-2 text-2xl'
+                    className = 'w-full mb-3 text-xl p-1 rounded-lg'
                     placeholder = 'username'
                 />
                 <label
-                    className = 'mb-2 text-lg'>
+                    className = 'text-2xl'>
                     Email:
                 </label>
-                <input
-                    className = 'w-full mb-2 text-2xl'
+                <input 
+                    className = 'w-full mb-3 text-xl p-1 rounded-lg'
                     placeholder = 'email'
                 />
                 <label
-                    className = 'mb-2 text-lg'>Password:</label>
-                <input
-                    class = 'w-full mb-2 text-2xl'
+                    className = 'text-2xl'>Password:</label>
+                <input 
+                    className = 'w-full mb-3 text-xl p-1 rounded-lg'
                     placeholder = 'password'
                 />
                 <label
-                    className = 'mb-2 text-lg'>Confirm Password:</label>
-                <input
-                    className = 'w-full mb-2 text-2xl'
+                    className = 'text-2xl'>Confirm Password:</label>
+                <input 
+                    className = 'w-full mb-3 text-xl p-1 rounded-lg'
                     placeholder = 'confirm-password'
                 />
-                <button>Register</button>
+                <button className = 'bg-black text-white mt-5 w-full p-2 rounded-full text-2xl' >Register</button>
             </form>
         </div>
     )
