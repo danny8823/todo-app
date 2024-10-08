@@ -7,7 +7,7 @@ export default function AddLayout({
     return (
         <div>
             <div className = 'bg-slate-100 h-0'>
-               <Link href = '/todo'><FaArrowLeft className = 'text-3xl'/><span>Back</span></Link>
+               <Link className = 'no-underline text-black' href = '/todo'><FaArrowLeft className = 'text-3xl'/>Back</Link>
             </div>                   
             {children}
         </div>
