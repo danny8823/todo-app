@@ -3,7 +3,7 @@
 export default function Register(){
     return (
         <div className = 'flex flex-col items-center justify-center w-full h-screen bg-slate-100'>
-            <form className = 'bg-blue-100 w-3/6 h-3/6 p-4 rounded-2xl shadow-xl'>
+            <form className = 'bg-blue-100 w-2/6 h-3/6 p-4 rounded-2xl shadow-xl'>
                 <h1 className = 'text-center text-4xl'>Register</h1>
                 <label
                     className = 'text-2xl'>
